@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+
+#resultados_ajax {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+select{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    outline: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    width: 40%;
+    font-weight: 300;
+    margin-top: 30px;
+    font-family: 'arial';
+}
+
+body{
+    background-image: url(../image/doctor.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.container-form{
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    position: absolute;
+    border-style: solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 88px;
+    padding: 0px;
+    background: #013E75;
+    border: black;
+    display: flex;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.logo-title{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.logo-title img{
+    width: 80px;
+    height: 82px;
+}
+
+.logo-title h2{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+    font-size: medium;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 5px;
+    padding-bottom: 0px;
+    font-weight: 100;
+    color: white;
+}
+
+.line-li{
+    border-bottom: 2px solid #DAD9D4;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid #DAD9D4;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+/*formulario Login*/
+
+
+.form{
+    width: 100%;
+}
+
+.form .welcome-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form .welcome-form2{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.form .welcome-form h1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -30px;
+    font-weight: bold;
+    color: #013E75;
+}
+
+.form .welcome-form h2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -40px;
+    font-weight: bold;
+    color: #013E75;
+}
+
+.line-input{
+    max-width: 45px;
+    display: inline;
+    border-bottom: 4px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    position: relative;
+}
+
+.border-input{
+    border-bottom: 4px;
+}
+
+.line-input input{
+    border-style: double;
+    outline: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+    width: 40%;
+    font-weight: 300;
+    margin-top: 30px;
+    font-family: 'arial';
+}
+
+.line-input label{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    color: #013E75;
+}
+
+.line-input p{
+    font-size: 50px;
+    position: relative;
+    top: 7px;
+    color: #013E75;
+}
+
+.form button{
+    width: 180px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    background: #013E75;
+    border-style: none;
+    outline: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button:hover{
+    opacity: .9;
+}
+
+.form button label{
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+.mensaje{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 2px;
+    color: red;
+}
+
+
+.active{
+    border-bottom: 2px solid #DAD9D4;
+}
+
+
+/*Principal*/
+
+
+.welcome{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            margin-top: 100px;
+            background: rgba(0,0,0,0.6);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .welcome h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 100;
+        }
+        
+        .welcome a{
+            display: block;
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        .welcome a:hover{
+            color: black;
+            background: white;
+        }
